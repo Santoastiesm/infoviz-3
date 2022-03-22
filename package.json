@@ -1,4 +1,18 @@
 {
+  "name": "codeschool-webdev",
+  "source": ["src/index.html"],
+  "targets": {
+    "default": {
+      "distDir": "./docs",
+      "publicUrl": "./",
+      "sourceMap": false
+    }
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel serve --open",
+    "build": "parcel build"
+  },
   "devDependencies": {
     "parcel": "^2.3.2"
   },
