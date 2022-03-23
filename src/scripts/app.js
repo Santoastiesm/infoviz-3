@@ -1,1 +1,2 @@
-console.log("Toast");
+// Import all plugins
+import * as bootstrap from 'bootstrap';
